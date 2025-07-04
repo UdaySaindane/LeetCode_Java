@@ -19,7 +19,7 @@ class Solution {
                 
 
                 char top= stack.pop();
-                if(( c== ')' && top!= '(') ||
+                if(( c== ')' && top!= '(') || 
                     (c == '}' && top != '{') ||
                     (c == ']' && top != '[')){
                         return false;
